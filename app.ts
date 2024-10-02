@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import bodyParser from 'body-parser';
-import authRoutes from './routes/auth'
+import authRoutes from './src/routes/auth'
 
 const app = express();
 
